@@ -16,7 +16,9 @@
     --fw-bold: 700;
     --fw-xbold: 800;
 
-
+    --spacer-md: 1rem;
+    --spacer-lg: calc(var(--spacer-md) *2);
+  
 }
 
 /*
@@ -63,8 +65,77 @@
   body {
     font-family:'Hanken Grotesk', sans-serif;
     font-size: 1.125rem;
+    font-weight: var(--fw-medium);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
   }
 
+  .container {
+    max-width: 22rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+  }
+
+  .container__results {
+     background-color: var(--clr-background-Lightslateblue);
+     text-align: center;
+     padding: var(--spacer-md);
+  }
+
+  .container__marks {
+       
+  }
+  
+  .circle {
+    background-color: var(--clr-circle-Violetblue);
+  }
+
+  .container__remarks {
+
+  }
+
+  .container__summary {
+    padding: var(--spacer-md);
+    display: grid;
+    gap: 1rem;
+  }
+
+  .flex-group {
+    display: flex;
+    justify-content: space-around;
+    gap: var(--spacer-md);
+  }
+ 
+  .subject {
+    flex-grow: 1;
+  }
+
+  .reaction {
+   color: var(--clr-lightred); 
+  
+  }
+
+  .memory {
+    color: var(--clr-Orangeyellow);
+  }
+
+  .verbal {
+    color: var(--clr-Greenteal);
+  }
+
+  .visual {
+    color: var(--clr-Cobaltblue);
+  }
+
+  button {
+    border: none;
+    color: var(--clr-White);
+    background-color: var(--clr-Darkgrayblue);
+    padding: 1rem 2rem;
+    border-radius: 3.125rem;
+  }
 
 /* 
 .attribution {

@@ -88,7 +88,7 @@
     background-image: linear-gradient(to top, var(--clr-background-Lightroyalblue), var(--clr-background-Lightslateblue));
     color: var(--clr-Lightlavender);
     text-align: center;
-    padding: var(--spacer-lg);
+    padding: 2.5rem;
     display: grid;
     gap: var(--spacer-md);
     border-radius: 1.563rem;
@@ -132,7 +132,7 @@
   }
 
   .container__summary {
-    padding: var(--spacer-md);
+    padding: 1.5rem;
     display: grid;
     gap: 1rem;
   }
@@ -143,6 +143,7 @@
     gap: var(--spacer-md);
     padding: var(--spacer-md);
     border-radius: 10px;
+    font-size: 1rem;
   }
  
   .subject {
@@ -150,7 +151,8 @@
   }
 
   .reaction {
-   color: var(--clr-lightred); 
+   color: var(--clr-lightred);
+    
   }
 
   .reaction-background {
@@ -198,7 +200,7 @@
     background-image: linear-gradient(to top, var(--clr-background-Lightroyalblue), var(--clr-background-Lightslateblue));;
   }
 
-  @media (min-width: 875px) {
+  @media (min-width: 600px) {
     .container {
       max-width: 41rem;
       display: flex;
@@ -227,13 +229,17 @@
     }
 
     .remarks {
-      font-size: 15px;
+      font-size: 0.938rem;
       max-width: 13.875rem;
     }
 
     .container__summary {
       flex: 1;
-      padding-left: 2rem;
+      padding: 2.5rem;
+    }
+
+    .container__results {
+      padding: 2.5rem;
     }
     
     button {

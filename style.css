@@ -128,7 +128,7 @@
 
   .remarks {
     font-size: 0.78rem;
-    padding-inline: 40px;
+    max-width: 14.5rem;
   }
 
   .container__summary {
@@ -200,7 +200,7 @@
 
   @media (min-width: 875px) {
     .container {
-      max-width: 40rem;
+      max-width: 41rem;
       display: flex;
       flex-direction: row;
     }
@@ -228,7 +228,7 @@
 
     .remarks {
       font-size: 15px;
-      padding-inline: 25px;
+      max-width: 13.875rem;
     }
 
     .container__summary {

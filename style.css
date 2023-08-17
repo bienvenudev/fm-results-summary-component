@@ -88,10 +88,11 @@
     background-image: linear-gradient(to top, var(--clr-background-Lightroyalblue), var(--clr-background-Lightslateblue));
     color: var(--clr-Lightlavender);
     text-align: center;
-    padding: 2.5rem;
+    padding: 1.5rem;
     display: grid;
+    justify-content: center;
     gap: var(--spacer-md);
-    border-radius: 1.563rem;
+    border-radius:0 0 1.563rem 1.563rem;
   }
 
   .heading {
@@ -118,12 +119,14 @@
   
   .overallmarks {
     color: var(--clr-White);
-    font-size: 45px;
+    font-size: 2.813rem;
+    font-weight: var(--fw-xbold);
   }
 
 
   .comment {
     color: var(--clr-White);
+    margin-bottom: 0.75rem;
   }
 
   .remarks {
@@ -240,6 +243,9 @@
 
     .container__results {
       padding: 2.5rem;
+      border-radius: 1.563rem;
+      align-items: center;
+      gap: 2rem;
     }
     
     button {

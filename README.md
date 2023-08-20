@@ -4,7 +4,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Table of contents
 
-- [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -12,7 +11,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -25,13 +23,15 @@ Users should be able to:
 - **Bonus**: Use the local JSON data to dynamically populate the content
 
 ### Screenshot
+![image](https://github.com/jwben1/fm-results-summary-component/assets/132217074/711725db-725a-4b88-ba61-4391a9eb1ce5)
 
-![](./screenshot.jpg)
+![image](https://github.com/jwben1/fm-results-summary-component/assets/132217074/09bb6640-b9c7-4d02-b713-406758a36f14)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/jwben1/fm-results-summary-component)
+- Live Site URL: (https://jwben1.github.io/fm-results-summary-component/)
 
 ## My process
 
@@ -58,17 +58,7 @@ I also learned more about Grids like Grid Area
 
 I want to improve my knowledge about Grid and Flexbox and also improve my naming conventions. And also learn the basics of JavaScript so that I can use the local JSON data to dynamically populate the content.
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- Frontend Mentor - (https://www.frontendmentor.io/profile/jwben1)
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit..
+As always I thank the FEM Community on Discord but also Kevin Powell's walkthrough on Youtube!

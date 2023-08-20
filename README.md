@@ -56,7 +56,7 @@ I also learned more about Grids like Grid Area
 
 ### Continued development
 
-I want to improve my knowledge about Grid and Flexbox and also improve my naming conventions.
+I want to improve my knowledge about Grid and Flexbox and also improve my naming conventions. And also learn the basics of JavaScript so that I can use the local JSON data to dynamically populate the content.
 
 ### Useful resources
 

@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/jwben1/fm-results-summary-component)
-- Live Site URL: (https://jwben1.github.io/fm-results-summary-component/)
+- Solution URL: (https://github.com/bienvenudev/fm-results-summary-component)
+- Live Site URL: (https://bienvenudev.github.io/fm-results-summary-component/)
 
 ## My process
 
